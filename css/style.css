@@ -1,0 +1,334 @@
+/*MASSAGE PAGE*/
+  /*Heading*/
+.heading {
+  background: url("../img/bg/heading_bg.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 33rem;
+  text-align: center;
+}
+.heading-content-wrp {
+padding-top: 50px;
+}
+.heading-content-wrp fieldset {
+  border: 2px solid #bbb;
+  display: inline-block;
+  min-width: 15rem;
+  width: 80%;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+.heading-content-wrp fieldset .button {
+  position: relative;
+  bottom: -1.5rem;
+  width: 12rem;
+  font-size: 1.8em;
+  line-height: 1.4;
+}
+.headline {
+  margin: 35px 0 40px;
+  font-size: 1.8em;
+  color: #fff;
+}
+.heading-content-wrp fieldset .title-white {
+  position: relative;
+  text-align: left;
+  padding: 0 10px;
+  margin-left: 30%;
+}
+.heading-title-list {
+  display: inline-block;
+  width: 80%;
+  max-width: 50rem;
+  min-width: 13rem;
+  position: relative;
+  margin-bottom: 25px;
+  z-index: 5;
+}
+.heading-title-list::after {
+  content: "" url("../img/icons/line.png");
+  position: absolute;
+  left: -5em;;
+  top: 0.5em;
+  width: 100%;
+  z-index: 4;
+}
+.heading-title-list li {
+  display: inline-block;
+  height: 10rem;
+  width: 8rem;
+  margin: 0 34px 1em;
+  position: relative;
+  z-index: 5;
+  vertical-align: top;
+}
+.heading-title-list li:first-child {
+  left: 14px;
+}
+.heading-title-list li:nth-child(2){
+  left: 3px;
+}
+.heading-title-list li img {
+  margin-bottom: 15px;
+}
+.heading-title-list li p {
+  color: #fff;
+  font-weight: 300;
+}
+/*Page nav*/
+.page-nav {
+  background-color: #000;
+  text-align: center;
+}
+.page-nav a {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.12em;
+  padding: 0 10px;
+  line-height: 3.6em;
+}
+/*Services*/
+.services {
+  text-align: center;
+  padding-top: 30px;
+}
+.services .section-title {
+  margin-bottom: 2rem;
+}
+.massage-services-list {
+display: inline-block;
+  text-align: center;
+  width: 85%;
+  max-width: 62rem;
+  margin-bottom: 4rem;
+}
+.massage-services-list > li {
+  display: inline-block;
+  min-width: 15rem;
+  width: 30%;
+  max-width: 20rem;
+  margin: 7.5px;
+  min-height: 29rem;
+  vertical-align: top;
+  border: 1px solid #bbb;
+}
+.massage-services-list .button {
+  margin-bottom: 1rem;
+}
+.massage-services-list > li img {
+  width: 100%;
+}
+.masl-picture {
+  height: 13.1rem;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.masl-text-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  margin-bottom: 30px;
+  height: 40px;
+}
+.masl-text-list {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.masl-text-list li {
+  display: inline-block;
+  width: calc(50% - 4px);
+}
+.masl-text-list li:first-child {
+  border-right: 1px solid #bbb;
+}
+.masl-text-subtitle {
+  font-size: 0.7em;
+  margin-bottom: 1rem;
+}
+.masl-text-list li p {
+  font-weight: 600;
+  font-size: 0.87em;
+  margin-bottom: 15px;
+}
+/*Why we*/
+.why-we-list > li{
+  padding: 50px 0;
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+.why-we-list > li:first-child {
+  background: url("../img/bg/whyus_bg_one.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: right;
+}
+.why-we-list > li:last-child {
+  background: url("../img/bg/whyus_bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 36px;
+}
+.why-we-box, .why-we-fieldset {
+  min-height: 35rem;
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+}
+.why-we-box {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.why-we-fieldset {
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  height: 35.8rem;
+}
+.why-we-fieldset .title-white {
+  position: relative;
+    text-align: center;
+    padding: 0 10px;
+}
+.wwf-text-wrp {
+  padding: 10% 0 10% 10%;
+}
+.wwf-text-wrp p, .why-we-preferences-list li {
+  color: #fff;
+  font-size: 1.12em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.why-we-preferences-list li{
+margin-bottom: 15px;
+vertical-align: top;
+}
+.why-we-preferences-list li p {
+  display: inline-block;
+  min-width: 12rem;
+  width: 80%;
+  margin: 0;
+  vertical-align: middle;
+}
+.preference-number {
+  display: inline-block;
+  line-height: 40px;
+  width: 40px;
+  font-size: 1.12em;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 1.8em;
+  vertical-align: middle;
+}
+/*Massage types*/
+.massage-types {
+  background: url("../img/bg/types_bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 3.4rem;
+  text-align: center;
+}
+.massage-types .section-title {
+  margin-bottom: 5.5rem;
+}
+.massage-types-list {
+  display: inline-block;
+  width: 80%;
+  min-width: 13rem;
+  margin-bottom: 5rem;
+  max-width: 70rem;
+}
+.massage-types-list li {
+  display: inline-block;
+  min-width: 12rem;
+  width: 28%;
+  margin: 1em;
+  text-align: center;
+  vertical-align: top;
+}
+.icon-wrp {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
+.icon-wrp img {
+  width: 100%;
+}
+.types-list-title {
+  font-size: 1.3em;
+  color: #4d4d4d;
+  margin-bottom: 15px;
+}
+.massage-types-list li h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: #a7a7a7;
+  margin-bottom: 15px;
+}
+.massage-types-list li p {
+  color: #4d4d4d;
+  font-size: 0.9em;
+  line-height: 1.2;
+  max-width: 25rem;
+  display: inline-block;
+}
+/*MAP*/
+.map-section {
+  height: 37rem;
+}
+#map {
+  height: 100%;
+  width: 100%;
+}
+/*FOOTER*/
+footer {
+  background: url("../img/bg/footer_bg.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 14.1rem;
+  padding-top: 3.3rem;
+  text-align: center;
+  overflow: hidden;
+}
+.footer-list, .footer-list li {
+  display: inline-block;
+}
+.footer-list li {
+  width: 16rem;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 25px;
+  margin-bottom: 15px;
+}
+.footer-list-title::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 0;
+  border: 18px solid transparent;
+  border-left: 20px solid;
+}
+.footer-list-title {
+  background-color: #dee511;
+  color: #1d1d1d;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  line-height: 35px;
+  font-weight: bold;
+  position: relative;
+}
+.footer-list-title::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 0;
+  border: 18px solid transparent;
+  border-right: 20px solid;
+}
+.footer-list p {
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 30px;
+}
